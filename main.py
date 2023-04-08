@@ -18,6 +18,8 @@ class Information: # Class for the information of the game
     SIDE_PAD = 100
     TOP_PAD = 150
     GRADIENTS = [(128, 128, 128), (160, 160, 160), (192, 192, 192)]
+    FONT = pygame.font.SysFont('calibri', 30)
+    BIG_FONT = pygame.font.SysFont('calibri', 40)
     
     def __init__(self, width, height, lst):
         self.width = width
@@ -55,6 +57,17 @@ def generate_random_list(n, max_val):
 
 def draw(info):
     info.screen.fill(info.BACKGROUND_COLOR)
+
+    controls = info.FONT.render("R - Reset | SPACE - Start Sorting", 1, info.WHITE)
+    info.screen.blit(controls, ((info.width/2) - (controls.get_width()/2) , 5))
+
+    controls = info.FONT.render("A - Bubble Sort | S - Selection Sort | D - Insertion Sort", 1, info.WHITE)
+    info.screen.blit(controls, ((info.width/2) - (controls.get_width()/2) , 35))
+
+    controls = info.FONT.render("F - Merge Sort | G - Quick Sort", 1, info.WHITE)
+    info.screen.blit(controls, ((info.width/2) - (controls.get_width()/2) , 65))
+
+
     draw_list(info)
     pygame.display.update()
 
@@ -83,7 +96,7 @@ def main():
     running = True
     sorting = False
     clock = pygame.time.Clock()
-
+    
     while running:
         clock.tick(60)  # fps: 60
         draw(info)
