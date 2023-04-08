@@ -7,7 +7,10 @@ When: April 7, 2023
 import pygame
 import random
 import math
+
 from bubblesort import bubble_sort
+from selectionsort import selection_sort
+from insertionsort import insertion_sort
 
 pygame.init()
 
@@ -16,7 +19,8 @@ class Information: # Class for the information of the game
     WHITE = 255, 255, 255
     GREEN = 0, 255, 0
     RED = 255, 0, 0
-    YELLOW = 255, 255, 51
+    YELLOW = 255, 255, 0
+    PINK = 255, 0, 255
     BACKGROUND_COLOR = 0, 0, 51
     SIDE_PAD = 100
     TOP_PAD = 150
@@ -122,7 +126,7 @@ def main():
     
     while running:
         if speed_slow:
-            clock.tick(30)  # fps: 30
+            clock.tick(10)  # fps: 30
         else:
             clock.tick(60)
         
@@ -142,16 +146,23 @@ def main():
                 random_list = generate_random_list(n, max_val) 
                 info.set_list(random_list)
                 sorting = False
-            elif event.key == pygame.K_j: # Slow speed
+            elif event.key == pygame.K_j: # Slow speed - J
                 speed_slow = True
-            elif event.key == pygame.K_k: # Slow speed
+            elif event.key == pygame.K_k: # Slow speed - K
                 speed_slow = False
             elif (event.key == pygame.K_SPACE) and (sorting == False) :  # Space = start sorting
                 sorting = True
                 sorting_algo_generator = sorting_algo(info)
-            
-
-    
+            elif (event.key == pygame.K_a) and (not sorting): # Bubble sort
+                sorting_algo = bubble_sort
+                sorting_algo_name = "Bubble Sort"
+            elif (event.key == pygame.K_s) and (not sorting):
+                sorting_algo = selection_sort
+                sorting_algo_name = "Selection Sort"
+            elif (event.key == pygame.K_d) and (not sorting):
+                sorting_algo = insertion_sort
+                sorting_algo_name = "Insertion Sort"
+ 
     pygame.quit()
 
 if __name__ == "__main__":

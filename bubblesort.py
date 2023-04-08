@@ -1,8 +1,10 @@
 """
 Implementation of Bubble Sort
 Keep track of the exchanges made
+Compare current element with the next and switch if necessary
+GREEN = current cursor
+RED = next of current
 """
-
 
 def bubble_sort(info):
     lst = info.lst
@@ -20,4 +22,3 @@ def bubble_sort(info):
                 draw_list(info, {current: info.GREEN, current+1: info.RED}, True)
                 yield True  # pause the execution => can use the controls
         last -= 1
-    return lst
