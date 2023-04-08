@@ -58,14 +58,14 @@ def generate_random_list(n, max_val):
 def draw(info):
     info.screen.fill(info.BACKGROUND_COLOR)
 
-    controls = info.FONT.render("R - Reset | SPACE - Start Sorting", 1, info.WHITE)
-    info.screen.blit(controls, ((info.width/2) - (controls.get_width()/2) , 5))
+    controls1 = info.FONT.render("R - Reset | SPACE - Start Sorting", 1, info.WHITE)  # surface object
+    info.screen.blit(controls1, ((info.width/2) - (controls1.get_width()/2) , 5))
 
-    controls = info.FONT.render("A - Bubble Sort | S - Selection Sort | D - Insertion Sort", 1, info.WHITE)
-    info.screen.blit(controls, ((info.width/2) - (controls.get_width()/2) , 35))
+    controls2 = info.FONT.render("A - Bubble Sort | S - Selection Sort | D - Insertion Sort", 1, info.WHITE)
+    info.screen.blit(controls2, ((info.width/2) - (controls2.get_width()/2) , 35))
 
-    controls = info.FONT.render("F - Merge Sort | G - Quick Sort", 1, info.WHITE)
-    info.screen.blit(controls, ((info.width/2) - (controls.get_width()/2) , 65))
+    controls3 = info.FONT.render("F - Merge Sort | G - Quick Sort", 1, info.WHITE)
+    info.screen.blit(controls3, ((info.width/2) - (controls3.get_width()/2) , 65))
 
 
     draw_list(info)

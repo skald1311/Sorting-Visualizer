@@ -22,4 +22,9 @@ implemented reset button - R
 
 tmr start drawing the sorting process itself, import the sorting algos from lab 9
 
+to draw the switching of tower, need to use "yield", which pauses the sorting function at the part where u switch the elemtn and we draw then call the function again to let it continue at the yielded part
+
+color the two towers that we are swapping
+need to fit in the current sorting function chosen
+
 
