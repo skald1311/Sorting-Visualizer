@@ -1,0 +1,25 @@
+tried to follow Flask's documentation but it touches on too many areas that I might not need.
+
+went on youtube instead
+https://www.youtube.com/watch?v=dam0GPOAvVI&t=522s by Tim
+
+pip installed flask, flask-login, flask-sqlalchemy
+
+only need 1 page for my sorting visualizer so I implemented only 1 route
+imported Bootstrap to base.html 
+jinga allows python use {% for loops...%}
+
+probably need to research on how to run python file within html for the sorting algos
+If I follow the tutorial, I won't know how to use it fundamentally => not going to try to deploy a website through python anymore
+
+Option 1: pygame. not going to deploy a website at all
+Option 2: deploy a website but only using plain JS, HTML and CSS. But this would mean that I don't get to use python, which was the purpose of this project.
+
+=> Option 1
+working out fine
+finished drawing the towers with the random generated list 12:29AM
+implemented reset button - R
+
+tmr start drawing the sorting process itself, import the sorting algos from lab 9
+
+
