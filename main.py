@@ -126,7 +126,7 @@ def main():
     
     while running:
         if speed_slow:
-            clock.tick(10)  # fps: 30
+            clock.tick(10)  # fps: 10
         else:
             clock.tick(60)
         
