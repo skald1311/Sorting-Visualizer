@@ -65,7 +65,27 @@ This is a sorting visualizer program implemented with Pygame in Python is an int
 
 Here's a picture of the interface: ![image](https://user-images.githubusercontent.com/84189062/230749957-c80f5875-6efa-4b97-855e-fe5c60e30f99.png)
 
-The program then animates the sorting process, displaying the current state of the array at each step, providing a clear visual representation of how the sorting algorithm is rearranging the elements of the array. Pygame is a popular Python library used to create 2D games, but its visual capabilities and ease of use make it an ideal choice for creating graphical user interfaces and visualizers. If you're interested in why I used pygame or my development process, you can check out my journal.txt, which is my journal throughout this project showcasing my thought process and the failed attempts.
+Controls: R - Reset and give a new random array
+          SPACE - Start Sorting with chosen sorting algorithm
+          J - Slow speed - tick(20)
+          K - Fast speed - tick(60)
+          A - Bubble Sort
+          S - Selection Sort
+          D - Insertion Sort
+          F - Merge Sort
+          G - Quick Sort
+
+If you press SPACE, the program then animates the sorting process with the current chosen sorting algorithm, displaying the current state of the array at each step, providing a clear visual representation of how the sorting algorithm is rearranging the elements of the array. I have included several demo videos of different sorting algorithms in the video folder. If you are unable or unwilling to download the visualizer, you may still view the videos to gain an understanding of how the algorithms work. I also included a super slow video on the Quick Sort as I didn't know how to make the visualization of the Quick Sort slower. Merge Sort is the same but I didn't include a video for that.
+
+A frame of the sorting process:
+![image](https://user-images.githubusercontent.com/84189062/230750407-6e9c4955-dc10-4f5d-afb7-cb33360ff7ec.png)
+
+
+If you're interested in why I used pygame or my development process in general, you can check out my journal.txt, which is my journal throughout this project showcasing my thought process and the failed attempts.
+
+
+
+
 
 
 
