@@ -128,7 +128,7 @@ To get a local copy up and running follow these simple example steps.
 
 ![image](https://user-images.githubusercontent.com/84189062/230750573-78d12ddd-ba80-4235-b63f-cbfe66fecacf.png)
 
-5. Type in cmd
+5. Install pygame by typing in cmd
    ```sh
    pip install pygame
    ```
