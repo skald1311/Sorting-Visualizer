@@ -16,7 +16,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/skald1311/Sorting-Visualizer">
-    <img src="https://user-images.githubusercontent.com/84189062/210021591-660087cb-5c01-4e91-bfb6-3a36c1ad556c.png" alt="Logo" width="80" height="80">
+    <img src="https://assets-global.website-files.com/606a802fcaa89bc357508cad/6123c034286044167618b263_7.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Sorting Visualizer</h3>
@@ -61,18 +61,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-The name of the project probably already describes everything there is about this project. In short, the goal of the game is to guess the correct number. It includes a highscore, a play again button and every time you guess wrong, the game will provide a hint: higher or lower. This is a straightforward game as this is my first time using Javascript to manipulate DOM and CSS. In development, I used NodeJS's live server to visualize the game as I write my code. In my perspective, teachers, and professors can easily utilize this game in their lectures to teach the fundamentals of the **Binary Search algorithm**. There will be instructions to play the game yourself in your browser but I'll put a demo play here in case anything goes wrong.
-Here is the starting screen:
-![image](https://user-images.githubusercontent.com/84189062/210020562-ce05f575-1c37-4d5f-8720-8c3e8634be2f.png)
-Let's test this: let the first guess be 10
-![image](https://user-images.githubusercontent.com/84189062/210020675-d2cff478-380b-4b66-a37c-4a33f3f67bd8.png)
-As we can see, it says too low which means the guess is wrong and 1 point is deducted from our total score of 20.
-After guessing for a while, we eventually reached the correct answer:
-![image](https://user-images.githubusercontent.com/84189062/210021032-236ea78d-f3b0-4297-8869-622aa2c8faa6.png)
-As we can see, the background changes to green indicating the correct answer, and the question mark in the middle of the screen changes into the correct answer.
-The score will then be compared to the highscore.
-If the point goes to 0, we will lose the game.
-We can always play the game again by clicking Again
+This is a sorting visualizer program implemented with Pygame in Python is an interactive tool that visually demonstrates how five particular sorting algorithms work (includes Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, and Quick Sort.  This program not only allows users to select a sorting algorithm of their choice, but also allows users to change the speed of the sorting. One convenient aspect of the sorting speed is that users have the ability to modify it during the sorting process. This means that if the user begins with a high speed, they can switch it to a lower speed if they desire, and vice versa.
+Here's a picture of the interface: 
+The program then animates the sorting process, displaying the current state of the array at each step, providing a clear visual representation of how the sorting algorithm is rearranging the elements of the array. Pygame is a popular Python library used to create 2D games, but its visual capabilities and ease of use make it an ideal choice for creating graphical user interfaces and visualizers. If you're interested in why I used pygame or my development process, you can check out my journal.txt, which is my journal throughout this project showcasing my thought process and the failed attempts.
 
 
 
@@ -82,10 +73,7 @@ We can always play the game again by clicking Again
 
 ### Built With
 
-* [![Javascript][Javascript]][Javascript-url]
-* [![Node][Node.js]][Node-url]
-* [![HTML5][HTML5]][HTML5-url]
-* [![CSS][CSS]][CSS-url]
+* [![Python][Python]][Python-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,7 +128,6 @@ Don't forget to give the project a star! Thanks again!
 ## License
 
 Distributed under the MIT License.
-<p>Credit to Jonas Schmedtmann for HTML and CSS file.<p/>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -151,7 +138,7 @@ Distributed under the MIT License.
 
 Duong Hoang - [LinkedIn](https://www.linkedin.com/in/hmd1311/)
 
-Project Link: [https://github.com/skald1311/Guess-My-Number](https://github.com/skald1311/Guess-My-Number)
+Project Link: [https://github.com/skald1311/Sorting-Visualizer](https://github.com/skald1311/Sorting-Visualizer)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,11 +148,6 @@ Project Link: [https://github.com/skald1311/Guess-My-Number](https://github.com/
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/hmd1311/
-[Javascript]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
-[Javascript-url]: https://www.javascript.com/
-[Node.js]: https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
-[Node-url]: https://nodejs.org/en/
-[HTML5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
-[HTML5-url]: https://en.wikipedia.org/wiki/HTML
-[CSS]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
-[CSS-url]: https://en.wikipedia.org/wiki/CSS
+[Python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
+[Python-url]: https://www.python.org
+
