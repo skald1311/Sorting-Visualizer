@@ -11,6 +11,8 @@ import math
 from bubblesort import bubble_sort
 from selectionsort import selection_sort
 from insertionsort import insertion_sort
+from mergesort import helper_merge
+from quicksort import quick_sort_helper2
 
 pygame.init()
 
@@ -21,6 +23,7 @@ class Information: # Class for the information of the game
     RED = 255, 0, 0
     YELLOW = 255, 255, 0
     PINK = 255, 0, 255
+    CYAN = 0, 255, 255
     BACKGROUND_COLOR = 0, 0, 51
     SIDE_PAD = 100
     TOP_PAD = 150
@@ -126,7 +129,7 @@ def main():
     
     while running:
         if speed_slow:
-            clock.tick(10)  # fps: 10
+            clock.tick(20) 
         else:
             clock.tick(60)
         
@@ -153,15 +156,21 @@ def main():
             elif (event.key == pygame.K_SPACE) and (sorting == False) :  # Space = start sorting
                 sorting = True
                 sorting_algo_generator = sorting_algo(info)
-            elif (event.key == pygame.K_a) and (not sorting): # Bubble sort
+            elif (event.key == pygame.K_a) and (not sorting): # A
                 sorting_algo = bubble_sort
                 sorting_algo_name = "Bubble Sort"
-            elif (event.key == pygame.K_s) and (not sorting):
+            elif (event.key == pygame.K_s) and (not sorting): # S
                 sorting_algo = selection_sort
                 sorting_algo_name = "Selection Sort"
-            elif (event.key == pygame.K_d) and (not sorting):
+            elif (event.key == pygame.K_d) and (not sorting): # D
                 sorting_algo = insertion_sort
                 sorting_algo_name = "Insertion Sort"
+            elif (event.key == pygame.K_f) and (not sorting): # F
+                sorting_algo = helper_merge
+                sorting_algo_name = "Merge Sort"
+            elif (event.key == pygame.K_g) and (not sorting): # G
+                sorting_algo = quick_sort_helper2
+                sorting_algo_name = "Quick Sort"
  
     pygame.quit()
 

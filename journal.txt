@@ -27,4 +27,16 @@ to draw the switching of tower, need to use "yield", which pauses the sorting fu
 color the two towers that we are swapping
 need to fit in the current sorting function chosen
 
+merge sort too fast to look ? dunno how to do it inplace :(
+quick sort too fast for human eye. Super slow video included :)
 
+Project done 
+Minimum viable product achieved: 1. Bubble sort, selection sort, insertion sort, merge sort, quick sort options.
+                                2. speed changer (slow or fast)
+                                3. informative color for towers
+Timer: roughly 12 hours
+April 7th - April 8th
+
+What I learned: 1. pygame
+                2. yield keyword
+                3. smart way of changing color based on index in a loops
