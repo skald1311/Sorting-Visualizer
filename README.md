@@ -61,8 +61,10 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This is a sorting visualizer program implemented with Pygame in Python is an interactive tool that visually demonstrates how five particular sorting algorithms work (includes Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, and Quick Sort.  This program not only allows users to select a sorting algorithm of their choice, but also allows users to change the speed of the sorting. One convenient aspect of the sorting speed is that users have the ability to modify it during the sorting process. This means that if the user begins with a high speed, they can switch it to a lower speed if they desire, and vice versa.
-Here's a picture of the interface: 
+This is a sorting visualizer program implemented with Pygame in Python is an interactive tool that visually demonstrates how five particular sorting algorithms work (includes Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, and Quick Sort). This program not only allows users to select a sorting algorithm of their choice, but also allows users to change the speed of the sorting. One convenient aspect of the sorting speed is that users have the ability to modify it **during the sorting process**. This means that if the user begins with a high speed, they can switch it to a lower speed if they desire, and vice versa.
+
+Here's a picture of the interface: ![image](https://user-images.githubusercontent.com/84189062/230749957-c80f5875-6efa-4b97-855e-fe5c60e30f99.png)
+
 The program then animates the sorting process, displaying the current state of the array at each step, providing a clear visual representation of how the sorting algorithm is rearranging the elements of the array. Pygame is a popular Python library used to create 2D games, but its visual capabilities and ease of use make it an ideal choice for creating graphical user interfaces and visualizers. If you're interested in why I used pygame or my development process, you can check out my journal.txt, which is my journal throughout this project showcasing my thought process and the failed attempts.
 
 
