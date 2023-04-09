@@ -65,6 +65,7 @@ This is a sorting visualizer program implemented with Pygame in Python is an int
 
 Here's a picture of the interface: ![image](https://user-images.githubusercontent.com/84189062/230749957-c80f5875-6efa-4b97-855e-fe5c60e30f99.png)
 
+<pre>
 Controls: R - Reset and give a new random array
           SPACE - Start Sorting with chosen sorting algorithm
           J - Slow speed - tick(20)
@@ -74,6 +75,7 @@ Controls: R - Reset and give a new random array
           D - Insertion Sort
           F - Merge Sort
           G - Quick Sort
+</pre>
 
 If you press SPACE, the program then animates the sorting process with the current chosen sorting algorithm, displaying the current state of the array at each step, providing a clear visual representation of how the sorting algorithm is rearranging the elements of the array. I have included several demo videos of different sorting algorithms in the video folder. If you are unable or unwilling to download the visualizer, you may still view the videos to gain an understanding of how the algorithms work. I also included a super slow video on the Quick Sort as I didn't know how to make the visualization of the Quick Sort slower. Merge Sort is the same but I didn't include a video for that.
 
