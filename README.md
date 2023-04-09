@@ -61,7 +61,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This is a sorting visualizer program implemented with Pygame in Python is an interactive tool that visually demonstrates how five particular sorting algorithms work (includes Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, and Quick Sort). This program not only allows users to select a sorting algorithm of their choice, but also allows users to change the speed of the sorting. One convenient aspect of the sorting speed is that users have the ability to modify it **during the sorting process**. This means that if the user begins with a high speed, they can switch it to a lower speed if they desire, and vice versa.
+This is a sorting visualizer program implemented with Pygame in Python is an interactive tool that visually demonstrates how five particular sorting algorithms work (includes Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, and Quick Sort). These five specific sorting algorithms are those that I have learned in CMPUT 175 and as it is often difficult to illustrate these by words, I have decided to make a visualizer of my own to help others understand. I not only get an opportunity to reinforce and enhance my understanding of the material but also provide instructors with a tool that can assist their students in visualizing the algorithms. This program not only allows users to select a sorting algorithm of their choice, but also allows users to change the speed of the sorting. One convenient aspect of the sorting speed is that users have the ability to modify it **during the sorting process**. This means that if the user begins with a high speed, they can switch it to a lower speed if they desire, and vice versa.
 
 Here's a picture of the interface: ![image](https://user-images.githubusercontent.com/84189062/230749957-c80f5875-6efa-4b97-855e-fe5c60e30f99.png)
 
@@ -83,7 +83,7 @@ A frame of the sorting process:
 ![image](https://user-images.githubusercontent.com/84189062/230750407-6e9c4955-dc10-4f5d-afb7-cb33360ff7ec.png)
 
 
-If you're interested in why I used pygame or my development process in general, you can check out my journal.txt, which is my journal throughout this project showcasing my thought process and the failed attempts.
+If you are curious about the reasons behind my usage of pygame or my overall development approach, you may refer to my journal.txt. This journal documents my progression throughout the project, including my reasoning and failed attempts.
 
 
 
@@ -124,8 +124,17 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    Make sure all of the files are in the same folder!!!
    ```
-4. Run the file named 'index'
+4. Open up cmd (by searching cmd in the search bar)
 
+![image](https://user-images.githubusercontent.com/84189062/230750573-78d12ddd-ba80-4235-b63f-cbfe66fecacf.png)
+
+5. Type in cmd
+   ```sh
+   pip install pygame
+   ```
+   If this doesn't work, try finding your OS installation instructions here: https://www.pygame.org/wiki/GettingStarted
+   
+6. Run main.py in the extracted folder
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
